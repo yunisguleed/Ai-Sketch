@@ -1,0 +1,47 @@
+#showsketch{
+    float:right;
+    font-size: 15px;
+}
+
+#body{
+    font-family: 'Luckiest Guy', cursive;
+    background:linear-gradient(to bottom right , red 50% , orange 50%);
+    color:black;
+}
+
+.par{
+    font-size: 20px;
+}
+
+canvas{
+    margin-top: 100px;
+    border-width: 15px;
+    border-style: groove;
+    background-color: white;
+    animation: colors 1s infinite;
+}
+
+label{
+    font-size: 23px;
+}
+
+@keyframes colors{
+    0%{
+        box-shadow: 10px 10px 38px red
+    }
+    20%{
+        box-shadow: 10px 10px 38px blue
+    }
+    40%{
+        box-shadow: 10px 10px 38px green
+    }
+    60%{
+        box-shadow: 10px 10px 38px yellow
+    }
+    80%{
+        box-shadow: 10px 10px 38px pink
+    }
+    100%{
+        box-shadow: 10px 10px 38px purple
+    }
+}
